@@ -97,5 +97,5 @@ func main() {
 		c.JSON(http.StatusOK, posts)
 	})
 
-	r.Run(":8081")
+	r.Run(":8081") //running on port 8081 and consuming API from 8080
 }
